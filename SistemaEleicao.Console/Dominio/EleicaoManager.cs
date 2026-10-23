@@ -64,6 +64,11 @@ public sealed class EleicaoManager
         return tipo;
     }
 
+    public ResultadoApuracao ApurarVotos() => new(
+        _candidatos.Values.Select(c => new ResultadoCandidato(
+            c.Nome, c.Numero, _votosPorCandidato.GetValueOrDefault(c.Numero))),
+        _votosBrancos, _votosNulos);
+
     private static string NormalizarDocumento(string documento)
     {
         if (string.IsNullOrWhiteSpace(documento))
