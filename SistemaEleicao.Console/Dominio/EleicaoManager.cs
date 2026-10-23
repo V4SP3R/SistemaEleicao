@@ -22,9 +22,8 @@ public sealed class EleicaoManager
 
     public Eleitor RegistrarEleitor(string documento)
     {
-        var documentoNormalizado = NormalizarDocumento(documento);
-        var eleitor = new Eleitor(documentoNormalizado);
-        if (!_eleitores.TryAdd(documentoNormalizado, eleitor))
+        var eleitor = new Eleitor(documento);
+        if (!_eleitores.TryAdd(eleitor.Documento, eleitor))
             throw new InvalidOperationException("Esse eleitor já está cadastrado.");
 
         return eleitor;
@@ -35,7 +34,7 @@ public sealed class EleicaoManager
 
     public TipoVoto Votar(string documento, int? numeroCandidato)
     {
-        var documentoNormalizado = NormalizarDocumento(documento);
+        var documentoNormalizado = Eleitor.NormalizarDocumento(documento);
         if (!_eleitores.TryGetValue(documentoNormalizado, out var eleitor))
             throw new InvalidOperationException("Eleitor não cadastrado. Registre-o antes de votar.");
         if (eleitor.JaVotou)
@@ -69,18 +68,4 @@ public sealed class EleicaoManager
             c.Nome, c.Numero, _votosPorCandidato.GetValueOrDefault(c.Numero))),
         _votosBrancos, _votosNulos);
 
-    private static string NormalizarDocumento(string documento)
-    {
-        if (string.IsNullOrWhiteSpace(documento))
-            throw new ArgumentException("Informe um título/CPF simulado.", nameof(documento));
-
-        if (documento.Any(c => !char.IsAsciiDigit(c) && c is not '.' and not '-' and not ' '))
-            throw new ArgumentException("Use apenas dígitos, pontos, hífen e espaços no documento.", nameof(documento));
-
-        var normalizado = new string(documento.Where(char.IsAsciiDigit).ToArray());
-        if (normalizado.Length == 0)
-            throw new ArgumentException("O documento deve conter ao menos um dígito.", nameof(documento));
-
-        return normalizado;
-    }
 }
