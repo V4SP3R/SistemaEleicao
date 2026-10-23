@@ -53,8 +53,8 @@ vencedora Ana. A aplicação encerrou normalmente.
 Os commits são reais e seguem Conventional Commits. O pacote preserva a pasta
 .git e inclui um bundle como alternativa para recuperar o histórico.
 
-O código e as instruções estão prontos. O repositório público
-https://github.com/V4SP3R/SistemaEleicao já existe; o envio do código e do
-histórico ainda está pendente de confirmação do titular da conta.
+O código e o histórico de desenvolvimento estão publicados no repositório
+público https://github.com/V4SP3R/SistemaEleicao.
+Os commits podem ser consultados pela página do repositório no GitHub.
 A entrega na plataforma da disciplina deve ser feita por cada aluno,
 conforme o enunciado.
