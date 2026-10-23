@@ -150,11 +150,13 @@ git log --oneline
 
 ## Publicação no GitHub e entrega
 
-Crie um repositório **público e vazio**, sem gerar README, licença ou .gitignore
-no GitHub. Na pasta do projeto, substitua a URL abaixo pelo endereço correto:
+O repositório público de destino é [V4SP3R/SistemaEleicao](https://github.com/V4SP3R/SistemaEleicao).
+Na pasta do projeto, envie os commits usando os comandos abaixo.
+Se você for entregar em outra conta, crie nela um repositório público e vazio,
+sem gerar README, licença ou .gitignore, e ajuste a URL.
 
 ~~~bash
-git remote add origin https://github.com/SEU_USUARIO/SistemaEleicao.git
+git remote add origin https://github.com/V4SP3R/SistemaEleicao.git
 git branch -M main
 git push -u origin main
 ~~~
