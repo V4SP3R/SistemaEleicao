@@ -1,0 +1,124 @@
+
+=== SISTEMA DE ELEIÇÃO ===
+1 - Cadastrar candidato
+2 - Registrar eleitor
+3 - Votar
+4 - Apurar votos
+5 - Listar candidatos
+0 - Sair
+Escolha uma opção: Nome do candidato: Número do candidato (0 e 99 são reservados): Candidato cadastrado com sucesso.
+
+=== SISTEMA DE ELEIÇÃO ===
+1 - Cadastrar candidato
+2 - Registrar eleitor
+3 - Votar
+4 - Apurar votos
+5 - Listar candidatos
+0 - Sair
+Escolha uma opção: Nome do candidato: Número do candidato (0 e 99 são reservados): Candidato cadastrado com sucesso.
+
+=== SISTEMA DE ELEIÇÃO ===
+1 - Cadastrar candidato
+2 - Registrar eleitor
+3 - Votar
+4 - Apurar votos
+5 - Listar candidatos
+0 - Sair
+Escolha uma opção: Título/CPF simulado: Eleitor registrado com sucesso.
+
+=== SISTEMA DE ELEIÇÃO ===
+1 - Cadastrar candidato
+2 - Registrar eleitor
+3 - Votar
+4 - Apurar votos
+5 - Listar candidatos
+0 - Sair
+Escolha uma opção: Título/CPF simulado: Eleitor registrado com sucesso.
+
+=== SISTEMA DE ELEIÇÃO ===
+1 - Cadastrar candidato
+2 - Registrar eleitor
+3 - Votar
+4 - Apurar votos
+5 - Listar candidatos
+0 - Sair
+Escolha uma opção: Título/CPF simulado: Eleitor registrado com sucesso.
+
+=== SISTEMA DE ELEIÇÃO ===
+1 - Cadastrar candidato
+2 - Registrar eleitor
+3 - Votar
+4 - Apurar votos
+5 - Listar candidatos
+0 - Sair
+Escolha uma opção: 
+--- CANDIDATOS ---
+10 - Ana
+20 - Bruno
+Título/CPF do eleitor cadastrado: Número do candidato (0 ou ENTER = branco; 99 = nulo): Voto válido registrado com sucesso.
+
+=== SISTEMA DE ELEIÇÃO ===
+1 - Cadastrar candidato
+2 - Registrar eleitor
+3 - Votar
+4 - Apurar votos
+5 - Listar candidatos
+0 - Sair
+Escolha uma opção: 
+--- CANDIDATOS ---
+10 - Ana
+20 - Bruno
+Título/CPF do eleitor cadastrado: Número do candidato (0 ou ENTER = branco; 99 = nulo): Voto em branco registrado com sucesso.
+
+=== SISTEMA DE ELEIÇÃO ===
+1 - Cadastrar candidato
+2 - Registrar eleitor
+3 - Votar
+4 - Apurar votos
+5 - Listar candidatos
+0 - Sair
+Escolha uma opção: 
+--- CANDIDATOS ---
+10 - Ana
+20 - Bruno
+Título/CPF do eleitor cadastrado: Número do candidato (0 ou ENTER = branco; 99 = nulo): Voto nulo registrado com sucesso.
+
+=== SISTEMA DE ELEIÇÃO ===
+1 - Cadastrar candidato
+2 - Registrar eleitor
+3 - Votar
+4 - Apurar votos
+5 - Listar candidatos
+0 - Sair
+Escolha uma opção: 
+--- CANDIDATOS ---
+10 - Ana
+20 - Bruno
+Título/CPF do eleitor cadastrado: Número do candidato (0 ou ENTER = branco; 99 = nulo): Erro: Esse eleitor já votou. Um segundo voto não é permitido.
+
+=== SISTEMA DE ELEIÇÃO ===
+1 - Cadastrar candidato
+2 - Registrar eleitor
+3 - Votar
+4 - Apurar votos
+5 - Listar candidatos
+0 - Sair
+Escolha uma opção: 
+--- APURAÇÃO DOS VOTOS ---
+Ana (10): 1 voto(s)
+Bruno (20): 0 voto(s)
+Votos válidos: 1
+Votos brancos: 1
+Votos nulos: 1
+Total de votos: 3
+Eleitores cadastrados: 3
+Vencedor: Ana (10), com 1 voto(s).
+
+=== SISTEMA DE ELEIÇÃO ===
+1 - Cadastrar candidato
+2 - Registrar eleitor
+3 - Votar
+4 - Apurar votos
+5 - Listar candidatos
+0 - Sair
+Escolha uma opção: Sistema encerrado.
